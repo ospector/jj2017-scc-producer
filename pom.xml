@@ -93,7 +93,7 @@
           <extensions>true</extensions>
           <configuration> 
               <!-- Provide the base class / package / pattern for your auto-generated tests -->
-              <!-- packageWithBaseClasses>com.develeap.scc</packageWithBaseClasses -->
+              <packageWithBaseClasses>com.develeap.scc</packageWithBaseClasses>
           </configuration>
       </plugin> 
     </plugins>
