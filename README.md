@@ -1,0 +1,17 @@
+# Spring Cloud Contract Demonstration Project - Producer
+
+This repository is a Spring Boot application that serves an API.
+
+It is part of a demonstration on the use of Spring Cloud Contract as a framework for developing and testing APIs.
+
+The code advances in steps, each of them tagged. You switch between them by executing `./stage.sh #`, e.g. `./stage.sh 0` will give you the intial source code without SCC.
+
+As you advance each stage adds code (the commit comment explains what).
+
+The full presentation was made at Jamin' Java 2017, Israel.
+
+The slide deck can be found here.
+
+Omri Spector
+
+deveLeap.com
