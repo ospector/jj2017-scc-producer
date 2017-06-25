@@ -14,8 +14,7 @@ Contract.make {
             contentType(applicationJson())
         }
         body (
-                "artworkId": "123",
-                "buyer": "Ben Johnson"
+                "artworkId": value(consumer(regex("[0-9]+")))
         )
     }
 
@@ -26,7 +25,8 @@ Contract.make {
             contentType(applicationJson())
         }
         body(
-                "status":"OK"
+                "status":"OK",
+		"reservationId": anyNumber()
         )
     }
 }

@@ -14,8 +14,7 @@ Contract.make {
             contentType(applicationJson())
         }
         body (
-                "artworkId": "no-such-painting",
-                "buyer": "Ben Johnson"
+                "artworkId": "no-such-painting"
         )
     }
 
