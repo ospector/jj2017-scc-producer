@@ -85,17 +85,17 @@
   <build>
     <finalName>${project.name}</finalName>
     <plugins>
-      <!-- Spring Cloud Contract plugin generates stubs from contracts 
+      <!-- Spring Cloud Contract plugin generates stubs from contracts -->
       <plugin>
           <groupId>org.springframework.cloud</groupId>
           <artifactId>spring-cloud-contract-maven-plugin</artifactId>
           <version>${spring-cloud-contract.version}</version>
           <extensions>true</extensions>
-          <configuration> -->
+          <configuration> 
               <!-- Provide the base class / package / pattern for your auto-generated tests -->
               <!-- packageWithBaseClasses>com.develeap.scc</packageWithBaseClasses -->
-          <!-- /configuration>
-      </plugin --> 
+          </configuration>
+      </plugin> 
     </plugins>
   </build>
 
