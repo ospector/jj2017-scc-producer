@@ -10,7 +10,7 @@ As you advance each stage adds code (the commit comment explains what).
 
 The full presentation was made at Jamin' Java 2017, Israel.
 
-The slide deck can be found here.
+The slide deck can be found [on slideshare](https://www.slideshare.net/omrispector/coordinating-microservices-spring-cloud-contract)
 
 Omri Spector
 
